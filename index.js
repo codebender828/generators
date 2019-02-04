@@ -15,10 +15,10 @@ function run(generator) {
 }
 
 /*
-        *   The yield keyword hands over the promise returned by fetch and yields it to the generator function run().
-        *   After run() resolves the promise, then the value of the resolved fetch() promise is passed into the response variable.
-        *   This operation is repeated and post receives an object from the generator.
-    */ 
+    *   The yield keyword hands over the promise returned by fetch and yields it to the generator function run().
+    *   After run() resolves the promise, then the value of the resolved fetch() promise is passed into the response variable.
+    *   This operation is repeated and post receives an object from the generator.
+*/ 
 run(function *() {
     const uri = 'https://jsonplaceholder.typicode.com/posts/1';
     const response = yield fetch(uri);
