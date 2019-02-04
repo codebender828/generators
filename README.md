@@ -9,3 +9,5 @@ With yarn
 
 ### Contributing
 🥤 Feel free to fork this repo and open a pull request.
+
+Find me on Twitter at: [@RiversJonas](https://twitter.com/RiversJonas)
